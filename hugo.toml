@@ -1,7 +1,6 @@
 baseURL = 'https://jxxxxxlxx.github.io/'
 locale = 'en-us'
 title = 'JXXXXXLXX'
-theme = 'yinyang'
 DefaultContentLanguage = "en"
 
 [caches]
