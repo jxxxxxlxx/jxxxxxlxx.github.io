@@ -1,0 +1,19 @@
+baseURL = 'https://jxxxxxlxx.github.io/'
+locale = 'en-us'
+title = 'JXXXXXLXX'
+theme = 'yinyang'
+DefaultContentLanguage = "en"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+headTitle = "JXXXXXLXX"
+description = "Some interesing thoughts" 
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
