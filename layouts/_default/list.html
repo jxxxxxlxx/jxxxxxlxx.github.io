@@ -8,7 +8,7 @@
       <div class="col-xs-12">
         {{ partial "header.html" . }}
 
-        <h1 class="taxonomy-term">{{ .Title }}</h1>
+        <h1 class="post-title taxonomy-term">{{ .Title }}</h1>
         <div id="posts-list">
           {{ if eq .Kind "taxonomy" }}
             {{ range .Data.Terms.Alphabetical }}
