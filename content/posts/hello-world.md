@@ -4,7 +4,6 @@ draft = false
 description = "My first post!"
 tags = [] 
 date = "2026-04-18" 
-categories = [] 
 menu = "main" 
 +++
 

@@ -10,7 +10,8 @@
 <div class="row end-md header-items">
   {{ range .Site.Params.socials }}
   <div class="header-item">
-    <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+    {{ $isExternal := or (hasPrefix .link "http://") (hasPrefix .link "https://") }}
+    <a href="{{ .link }}"{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .name }}</a>
   </div>
   {{ end }}
 </div>

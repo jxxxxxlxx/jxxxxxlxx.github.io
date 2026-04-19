@@ -10,10 +10,22 @@ DefaultContentLanguage = "en"
 
 [params]
 headTitle = "JXXXXXLXX"
-description = "Some interesing thoughts" 
+favicon = "/favicon.ico"
+#description = "Trust the process..." 
 mainSections = ["posts"]
+
+[[params.socials]]
+name = "Home"
+link = "/"
+
+#[[params.socials]]
+#name = "About"
+#link = "/about/"
+
+[[params.socials]]
+name = "Tags"
+link = "/tags/"
 
 [[params.socials]]
 name = "RSS"
 link = "/index.xml"
-
