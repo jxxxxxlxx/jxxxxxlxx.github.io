@@ -1,0 +1,69 @@
+:root,
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --text-color: #f1ede6;
+  --link-color: #f5f1ea;
+  --border-color: #5a5348;
+  --secondary-text: #aaa396;
+  --code-bg: #1a1917;
+  --blockquote-color: #c0b9ae;
+  --blockquote-border: #4f493f;
+  --disqus-bg: #111111;
+}
+
+body {
+  font-family: "Lora", serif;
+  letter-spacing: 0.01em;
+}
+
+.header-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  letter-spacing: 0.04em;
+}
+
+.header-items,
+.site-footer,
+.post-date,
+.post-author,
+.post-tags,
+.posts-line,
+.posts-categories {
+  letter-spacing: 0.02em;
+}
+
+.header-line {
+  border-width: 1px;
+}
+
+.post-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.site-date-catalog {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.markdown-body {
+  font-size: 19px;
+}
+
+.post-content p {
+  line-height: 1.95;
+}
+
+a:hover {
+  font-weight: 500;
+  text-decoration-thickness: 1px;
+}

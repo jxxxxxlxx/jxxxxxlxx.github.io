@@ -13,6 +13,7 @@ headTitle = "JXXXXXLXX"
 favicon = "/favicon.ico"
 #description = "Trust the process..." 
 mainSections = ["posts"]
+extraCSSFiles = ["css/custom.css"]
 
 [[params.socials]]
 name = "Home"
