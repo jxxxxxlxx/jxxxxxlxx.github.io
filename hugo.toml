@@ -7,6 +7,10 @@ DefaultContentLanguage = "en"
   [caches.images]
     dir = ':cacheDir/images'
 
+[services]
+  [services.googleAnalytics]
+    id = "G-9V5B08KL4X"
+
 [params]
 headTitle = "JXXXXXLXX"
 favicon = "/favicon.ico"
